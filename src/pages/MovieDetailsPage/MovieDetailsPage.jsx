@@ -36,10 +36,7 @@ const MovieDetailsPage = () => {
 			.catch((error) => console.error("Error fetching movie reviews:", error));
 	}, [movieId]);
 
-	const handleTogglePoster = () => {
-		setShowCast(false);
-		setShowReviews(false);
-	};
+
 
 	const handleToggleCast = () => {
 		setShowCast((prevState) => !prevState);
