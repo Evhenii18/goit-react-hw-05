@@ -1,15 +1,12 @@
 .nav {
   display: flex;
-  gap: 20px;
-  padding: 10px;
+  gap: 15px;
 }
-
 .link {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
-
-.link.active {
+.active {
   font-weight: bold;
-  color: #007bff;
+  color: blue;
 }
