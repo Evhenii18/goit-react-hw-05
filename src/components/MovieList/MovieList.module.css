@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 10px 0;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list li a:hover {
+  color: #007bff;
+}

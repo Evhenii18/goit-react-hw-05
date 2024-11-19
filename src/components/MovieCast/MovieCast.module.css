@@ -1,0 +1,8 @@
+.cast ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cast li {
+  margin: 10px 0;
+}
